@@ -13,6 +13,8 @@
 		43FAA14F25546290003134DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FAA14D25546290003134DE /* Main.storyboard */; };
 		43FAA15125546292003134DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FAA15025546292003134DE /* Assets.xcassets */; };
 		43FAA15425546292003134DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FAA15225546292003134DE /* LaunchScreen.storyboard */; };
+		43FAA15F2554630A003134DE /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA15E2554630A003134DE /* UICheckBox.swift */; };
+		43FAA1682555B1A4003134DE /* UICheckWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAA1672555B1A4003134DE /* UICheckWithLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		43FAA15025546292003134DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FAA15325546292003134DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FAA15525546292003134DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43FAA15E2554630A003134DE /* UICheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICheckBox.swift; sourceTree = "<group>"; };
+		43FAA1672555B1A4003134DE /* UICheckWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICheckWithLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				43FAA15025546292003134DE /* Assets.xcassets */,
 				43FAA15225546292003134DE /* LaunchScreen.storyboard */,
 				43FAA15525546292003134DE /* Info.plist */,
+				43FAA15E2554630A003134DE /* UICheckBox.swift */,
+				43FAA1672555B1A4003134DE /* UICheckWithLabel.swift */,
 			);
 			path = CheckboToSwift;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FAA15F2554630A003134DE /* UICheckBox.swift in Sources */,
 				43FAA14C25546290003134DE /* ViewController.swift in Sources */,
+				43FAA1682555B1A4003134DE /* UICheckWithLabel.swift in Sources */,
 				43FAA14825546290003134DE /* AppDelegate.swift in Sources */,
 				43FAA14A25546290003134DE /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
